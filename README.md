@@ -94,3 +94,6 @@ Attribution is appreciated but not required.
 
 Some assets (e.g., models, textures) used in exercises may come from third-party sources.
 Please check individual exercise folders or asset metadata for specific credits and usage terms if you plan to reuse them.
+
+This project contains exercises and personal implementations inspired by the [Three.js Journey](https://threejs-journey.com) course by Bruno Simon.  
+All original course content is © Bruno Simon. No course assets are included. Please support the creator by enrolling in the course.
