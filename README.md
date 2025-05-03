@@ -55,13 +55,12 @@ Each subfolder typically includes:
 
 Inside each `Exercise/` folder:
 
-- `index.html` — Entry point for the example  
-- `script.js` — The main JavaScript file implementing the concept.
+- `src` - The files containing the majority of the code for this program. Within this folder there is an `index.html` file as the entry point for the example and a `script.js` file, which is the main JavaScript file implementing the concept.
 - `package.json` — Lists project dependencies and scripts
 - `package-lock.json` — Ensures consistent dependency versions across installs
 - `node_modules/` — All installed packages for that exercise
 
-> 📦 The `node_modules/` folder is not **excluded** from each `Exercise/` folder in version control to reduce repo size. For the same reason, the `package-lock.json` may also be **excluded**. 
+> 📦 The `node_modules/` folder is **excluded** from each `Exercise/` folder in version control to reduce repo size. For the same reason, the `package-lock.json` may also be **excluded**. 
 > Note: The projects in this repository rely in Vite as a bundler (as specified in the `package-lock.json` files)
 
 ## How to Run an Exercise Locally: 
